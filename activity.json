@@ -1,43 +1,26 @@
-{
-    "_id" : ObjectId("597708bd2d8d55676651e8b3"),
-    "username" : "cuongvip1295@yahoo.com.vn",
-    "name" : "Cancel Room",
-    "click" : "101",
-    "details" : "You canceled Room 101 for 3 days with total price $100/day",
-    "note" : "Check in: 19-07-2017 - check out: 22-07-2017",
-    "status" : "Email replied",
-    "result" : "Cancel Successfully"
-}
-
-{
-    "_id" : ObjectId("597773e42d8d5567665223f3"),
-    "username" : "cuongvip1295@yahoo.com.vn",
-    "name" : "Cancel Room",
-    "click" : "101",
-    "details" : "You canceled Room 101 for 3 days with total price $100/day",
-    "note" : "Check in: 19-07-2017 - check out: 22-07-2017",
-    "status" : "Email replied",
-    "result" : "Cancel Successfully"
-}
-
-{
-    "_id" : ObjectId("597773e82d8d5567665223f8"),
-    "username" : "cuongvip1295@yahoo.com.vn",
-    "name" : "Cancel Room",
-    "click" : "101",
-    "details" : "You canceled Room 101 for 3 days with total price $100/day",
-    "note" : "Check in: 19-07-2017 - check out: 22-07-2017",
-    "status" : "Email replied",
-    "result" : "Cancel Successfully"
-}
-
-{
-    "_id" : ObjectId("597773f02d8d5567665223fb"),
-    "username" : "cuongvip1295@gmail.com",
-    "name" : "Cancel Room",
-    "click" : "101",
-    "details" : "You canceled Room 101 for 3 days with total price $100/day",
-    "note" : "Check in: 19-07-2017 - check out: 22-07-2017",
-    "status" : "Email replied",
-    "result" : "Cancel Successfully"
-}
+{"_id":{"$oid":"59f0a41ae3a87314940bfe6e"},"name":"Book Room","username":"cuongbi1295@gmail.com","fullname":"Do Hung Cuong","email":"cuongbi1295@gmail.com","phone":"0908998923","click":"59f0a23d11949b7d5c6a172c","details":"Booked Room 101","note":"Check in: 2017-10-31 \u0026 Check out: 2017-10-31","content":"You have booked room 101 and made pre-payment for one day with total $300","response":"Not Yet","created_at":{"$date":"2017-10-25T14:47:54.119Z"},"__v":0}
+{"_id":{"$oid":"59f0acf0fdd5b12f941e458e"},"username":"cuongvip1295@gmail.com","name":"Sign up","fullname":"Hùng Cường","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"register","details":"You have signed up with email cuongvip1295@gmail.com","note":"You are having $500 in your account","content":"Thank you for join us! You are able to use premium feature!","response":"Not Yet","created_at":{"$date":"2017-10-25T15:25:36.755Z"},"__v":0}
+{"_id":{"$oid":"59f0ad0bfdd5b12f941e459a"},"name":"Feedback Room","username":"cuongvip1295@gmail.com","fullname":"Hùng Cường","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"59f0a23d11949b7d5c6a175e","details":"Feedback sent successfully!","note":"Rating room 603 with 5 ★","content":"no content","response":"Not Yet","created_at":{"$date":"2017-10-25T15:26:03.963Z"},"__v":0}
+{"_id":{"$oid":"59f0ad18fdd5b12f941e459d"},"name":"Book Room","username":"cuongvip1295@gmail.com","fullname":"Hùng Cường","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"59f0a23d11949b7d5c6a175e","details":"Booked Room 603","note":"Check in: 2017-10-31 \u0026 Check out: 2017-10-31","content":"You have booked room 603 and made pre-payment for one day with total $320","response":"Not Yet","created_at":{"$date":"2017-10-25T15:26:16.184Z"},"__v":0}
+{"_id":{"$oid":"59f0ad1ffdd5b12f941e459e"},"name":"Feedback Room","username":"cuongvip1295@gmail.com","fullname":"Hùng Cường","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"59f0a23d11949b7d5c6a175e","details":"Feedback sent successfully!","note":"Rating room 603 with 4 ★","content":"no content","response":"Not Yet","created_at":{"$date":"2017-10-25T15:26:23.085Z"},"__v":0}
+{"_id":{"$oid":"59f0ad32fdd5b12f941e45a2"},"name":"Feedback Room","username":"cuongvip1295@gmail.com","fullname":"Hùng Cường","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"59f0a23d11949b7d5c6a1732","details":"Feedback sent successfully!","note":"Rating room 201 with 4 ★","content":"Quiet goot","response":"Not Yet","created_at":{"$date":"2017-10-25T15:26:42.320Z"},"__v":0}
+{"_id":{"$oid":"59f0ad4dfdd5b12f941e45aa"},"name":"Book Room","username":"cuongvip1295@gmail.com","fullname":"Hùng Cường","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"59f0a23d11949b7d5c6a172e","details":"Booked Room 102","note":"Check in: 2017-10-31 \u0026 Check out: 2017-10-31","content":"You have booked room 102 and made pre-payment for one day with total $100","response":"Not Yet","created_at":{"$date":"2017-10-25T15:27:09.443Z"},"__v":0}
+{"_id":{"$oid":"59f0ad4ffdd5b12f941e45ab"},"name":"Feedback Room","username":"cuongvip1295@gmail.com","fullname":"Hùng Cường","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"59f0a23d11949b7d5c6a172e","details":"Feedback sent successfully!","note":"Rating room 102 with 5 ★","content":"no content","response":"Not Yet","created_at":{"$date":"2017-10-25T15:27:11.835Z"},"__v":0}
+{"_id":{"$oid":"59f0bdf6fdd5b12f941e45c3"},"name":"Feedback","username":"cuongvip1295@gmail.com","fullname":"Hùng Cường","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"feedback","details":"Feedback sent successfully!","note":"Rating with 5 ★","content":"this is great","response":"Not Yet","created_at":{"$date":"2017-10-25T16:38:14.698Z"},"__v":0}
+{"_id":{"$oid":"59f0be71fdd5b12f941e45c5"},"name":"Feedback","username":"cuongvip1295@gmail.com","fullname":"Hùng Cường","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"feedback","details":"Feedback sent successfully!","note":"Rating with 4 ★","content":"this is quiet great","response":"Seen","created_at":{"$date":"2017-10-25T16:40:17.910Z"},"__v":0}
+{"_id":{"$oid":"59f0be7ffdd5b12f941e45c7"},"name":"Feedback","username":"cuongvip1295@gmail.com","fullname":"Hùng Cường","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"feedback","details":"Feedback sent successfully!","note":"Rating with 1 ★","content":"this is very bad","response":"Seen","created_at":{"$date":"2017-10-25T16:40:31.835Z"},"__v":0}
+{"_id":{"$oid":"59f0be9bfdd5b12f941e45c9"},"name":"Feedback","username":"cuongvip1295@gmail.com","fullname":"Hùng Cường","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"feedback","details":"Feedback sent successfully!","note":"Rating with 3 ★","content":"this is ok ","response":"Seen","created_at":{"$date":"2017-10-25T16:40:59.837Z"},"__v":0}
+{"_id":{"$oid":"59fd0aa8b26e740a786fd608"},"name":"Book Room","username":"cuongvip1295@gmail.com","fullname":"Hùng Cường","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"59f0a23d11949b7d5c6a1730","details":"Booked Room 103","note":"Check in: 2017-11-23 \u0026 Check out: 2017-11-30","content":"You have booked room 103 and made pre-payment for one day with total $80","response":"Not Yet","created_at":{"$date":"2017-11-04T00:32:40.123Z"},"__v":0}
+{"_id":{"$oid":"59fd13b1e1dbfa125484c31e"},"name":"Book Room","username":"cuongvip1295@gmail.com","fullname":"Hùng Cường","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"59f0a23d11949b7d5c6a1736","details":"Booked Room 203","note":"Check in: 2017-11-30 \u0026 Check out: 2017-11-30","content":"You have booked room 203 and made pre-payment for one day with total $100","response":"Not Yet","created_at":{"$date":"2017-11-04T01:11:13.189Z"},"__v":0}
+{"_id":{"$oid":"59fea1fb326def09e42d54ec"},"name":"Cancel Room","username":"cuongvip1295@gmail.com","fullname":"Hùng Cường","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"59f0a23d11949b7d5c6a1730","details":"Clicked Cancel Room 103","note":"Waiting for response!","content":"You have clicked Cancel Room 103! Please waiting for our response. If your requirement is accepted. You might still lose half of the price of this room","response":"Not Yet","created_at":{"$date":"2017-11-05T05:30:35.256Z"},"__v":0}
+{"_id":{"$oid":"59fea214326def09e42d54f4"},"name":"Cancel Room","username":"cuongvip1295@gmail.com","fullname":"Hùng Cường","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"59f0a23d11949b7d5c6a1730","details":"Clicked Cancel Room 103","note":"Waiting for response!","content":"You have clicked Cancel Room 103! Please waiting for our response. If your requirement is accepted. You might still lose half of the price of this room","response":"Seen","created_at":{"$date":"2017-11-05T05:31:00.893Z"},"__v":0}
+{"_id":{"$oid":"59fea395326def09e42d54fe"},"name":"Feedback Room","username":"cuongvip1295@gmail.com","fullname":"Hùng Cường","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"59f0a23d11949b7d5c6a1732","details":"Feedback sent successfully!","note":"Rating room 201 with 5 ★","content":"no content","response":"Not Yet","created_at":{"$date":"2017-11-05T05:37:25.203Z"},"__v":0}
+{"_id":{"$oid":"59fea4b9d1629433407d7cdf"},"name":"Feedback Room","username":"cuongvip1295@gmail.com","fullname":"Hùng Cường","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"59f0a23d11949b7d5c6a1732","details":"Feedback sent successfully!","note":"Rating room 201 with 5 ★","content":"really love this room","response":"Not Yet","created_at":{"$date":"2017-11-05T05:42:17.153Z"},"__v":0}
+{"_id":{"$oid":"59fea511dcb92e373828acfe"},"name":"Feedback Room","username":"cuongvip1295@gmail.com","fullname":"Hùng Cường","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"59f0a23d11949b7d5c6a172e","details":"Feedback sent successfully!","note":"Rating room 102 with 1 ★","content":"this room is not good anymore","response":"Not Yet","created_at":{"$date":"2017-11-05T05:43:45.232Z"},"__v":0}
+{"_id":{"$oid":"59fea532dcb92e373828ad00"},"name":"Feedback Room","username":"cuongvip1295@gmail.com","fullname":"Hùng Cường","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"59f0a23d11949b7d5c6a172e","details":"Feedback sent successfully!","note":"Rating room 102 with 1 ★","content":"this room is very bad","response":"Not Yet","created_at":{"$date":"2017-11-05T05:44:18.521Z"},"__v":0}
+{"_id":{"$oid":"5a040c244b45ba1364006f0e"},"name":"Book Room","username":"cuongvip1295@gmail.com","fullname":"Hùng Cường","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"59f0a23d11949b7d5c6a172c","details":"Booked Room 101","note":"Check in: 2017-11-30 \u0026 Check out: 2017-11-30","content":"You have booked room 101 and made pre-payment for one day with total $300","response":"Seen","created_at":{"$date":"2017-11-09T08:04:52.072Z"},"__v":0}
+{"_id":{"$oid":"5a040c244b45ba1364006f0f"},"name":"Book Room","username":"cuongvip1295@gmail.com","fullname":"Hùng Cường","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"59f0a23d11949b7d5c6a172c","details":"Booked Room 101","note":"Check in: 2017-11-30 \u0026 Check out: 2017-11-30","content":"You have booked room 101 and made pre-payment for one day with total $300","response":"Seen","created_at":{"$date":"2017-11-09T08:04:52.077Z"},"__v":0}
+{"_id":{"$oid":"5a040c5c4b45ba1364006f17"},"name":"Send Contact","username":"A guest with email: cuongvip1295@gmail.com","fullname":"cuong","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"contact","details":"Message sent successfully.","note":"Waiting for response!","content":"abc","response":"Seen","created_at":{"$date":"2017-11-09T08:05:48.509Z"},"__v":0}
+{"_id":{"$oid":"5a040c7f4b45ba1364006f19"},"name":"Feedback","username":"cuongvip1295@gmail.com","fullname":"Hùng Cường","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"feedback","details":"Feedback sent successfully!","note":"Rating with 5 ★","content":"hello","response":"Seen","created_at":{"$date":"2017-11-09T08:06:23.919Z"},"__v":0}
+{"_id":{"$oid":"5a040c8b4b45ba1364006f1e"},"name":"Feedback Room","username":"cuongvip1295@gmail.com","fullname":"Hùng Cường","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"59f0a23d11949b7d5c6a172e","details":"Feedback sent successfully!","note":"Rating room 102 with 5 ★","content":"good room","response":"Not Yet","created_at":{"$date":"2017-11-09T08:06:35.558Z"},"__v":0}
+{"_id":{"$oid":"5a05ece599dead19009e41a2"},"name":"Cancel Room","username":"cuongvip1295@gmail.com","fullname":"Hùng Cường","email":"cuongvip1295@gmail.com","phone":"0908998923","click":"59f0a23d11949b7d5c6a172c","details":"Clicked Cancel Room 101","note":"Waiting for response!","content":"You have clicked Cancel Room 101! Please waiting for our response. If your requirement is accepted. You might still lose half of the price of this room","response":"Seen","created_at":{"$date":"2017-11-10T18:16:05.396Z"},"__v":0}

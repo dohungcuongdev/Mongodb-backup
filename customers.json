@@ -1,23 +1,2 @@
-{
-    "_id" : ObjectId("59775fd8a31dfb2d60c4ff58"),
-    "username" : "cuongvip1295@gmail.com",
-    "password" : "$2a$10$Efgfd8zT1zntc07bJBu69OfyiWJ27owtIZsKSU6GXZSPeapkwA44a",
-    "name" : "Cu?ng",
-    "phone" : "0908998923",
-    "address" : "24/7 Phu?ng BÏnh An Qu?n 2",
-    "balance" : 500,
-    "created_at" : ISODate("2017-07-25T15:12:24.564Z"),
-    "__v" : 0
-}
-
-{
-    "_id" : ObjectId("59775fe8a31dfb2d60c4ff59"),
-    "username" : "cuongvip1295@yahoo.com.vn",
-    "password" : "$2a$10$rV3e3dmliWEJ4dsJFW6ZKOy.92pF5UUqdOxhgw7JDv0TgM79DbCx2",
-    "name" : "H˘ng Cu?ng",
-    "phone" : "0908998923",
-    "address" : "24/7 Phu?ng BÏnh An Qu?n 2",
-    "balance" : 500,
-    "created_at" : ISODate("2017-07-25T15:12:40.742Z"),
-    "__v" : 0
-}
+{"_id":{"$oid":"59b5342c5a2e1612981522b0"},"username":"cuongbi1295@gmail.com","password":"$2a$10$oYXyuwYTdPm5PLHA.SfEJ.2rkXu14AkDICkCIxEvLmBY6VW7Ff8B2","name":"Do Hung Cuong","phone":"0908998923","address":"24/7 Binh An","balance":200,"created_at":{"$date":"2017-09-10T12:46:36.096Z"},"__v":0}
+{"_id":{"$oid":"59f0acf0fdd5b12f941e458d"},"username":"cuongvip1295@gmail.com","password":"$2a$10$Hj68LiYhRCRVMe5k25QpxOSbjZKjqzKd3Vnd0vbJMAuXkQYZ7Qw72","name":"H√πng C∆∞·ªùng","phone":"0908998923","address":"24/7 Binh An","balance":300,"created_at":{"$date":"2017-10-25T15:25:36.754Z"},"__v":0}
