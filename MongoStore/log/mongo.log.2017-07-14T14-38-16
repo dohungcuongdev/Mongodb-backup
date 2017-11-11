@@ -1,0 +1,189 @@
+2017-07-14T12:00:11.816+0700 I CONTROL  [initandlisten] MongoDB starting : pid=7176 port=27017 dbpath=D:\MongoStore\data 64-bit host=USER-PC
+2017-07-14T12:00:11.816+0700 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-07-14T12:00:11.816+0700 I CONTROL  [initandlisten] db version v3.4.5
+2017-07-14T12:00:11.817+0700 I CONTROL  [initandlisten] git version: 520b8f3092c48d934f0cd78ab5f40fe594f96863
+2017-07-14T12:00:11.817+0700 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-07-14T12:00:11.817+0700 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-07-14T12:00:11.817+0700 I CONTROL  [initandlisten] modules: none
+2017-07-14T12:00:11.817+0700 I CONTROL  [initandlisten] build environment:
+2017-07-14T12:00:11.817+0700 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-07-14T12:00:11.817+0700 I CONTROL  [initandlisten]     distarch: x86_64
+2017-07-14T12:00:11.817+0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-07-14T12:00:11.817+0700 I CONTROL  [initandlisten] options: { config: "D:\MongoStore\config.txt", storage: { dbPath: "D:\MongoStore\data" }, systemLog: { destination: "file", path: "D:\MongoStore\log\mongo.log" } }
+2017-07-14T12:00:11.818+0700 I -        [initandlisten] Detected data files in D:\MongoStore\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-07-14T12:00:11.830+0700 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3539M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-07-14T12:00:14.642+0700 I CONTROL  [initandlisten] 
+2017-07-14T12:00:14.642+0700 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-07-14T12:00:14.642+0700 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-07-14T12:00:14.642+0700 I CONTROL  [initandlisten] 
+2017-07-14T12:00:14.643+0700 I CONTROL  [initandlisten] Hotfix KB2731284 or later update is not installed, will zero-out data files.
+2017-07-14T12:00:14.643+0700 I CONTROL  [initandlisten] 
+2017-07-14T12:00:16.286+0700 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'D:/MongoStore/data/diagnostic.data'
+2017-07-14T12:00:16.309+0700 I NETWORK  [thread1] waiting for connections on port 27017
+2017-07-14T12:02:10.177+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:56046 #1 (1 connection now open)
+2017-07-14T12:02:10.185+0700 I NETWORK  [conn1] received client metadata from 127.0.0.1:56046 conn1: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T12:07:28.565+0700 I -        [conn1] end connection 127.0.0.1:56046 (1 connection now open)
+2017-07-14T12:07:36.223+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:56430 #2 (1 connection now open)
+2017-07-14T12:07:36.228+0700 I NETWORK  [conn2] received client metadata from 127.0.0.1:56430 conn2: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T12:07:37.139+0700 I -        [conn2] end connection 127.0.0.1:56430 (1 connection now open)
+2017-07-14T12:08:08.045+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:56436 #3 (1 connection now open)
+2017-07-14T12:08:08.050+0700 I NETWORK  [conn3] received client metadata from 127.0.0.1:56436 conn3: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T13:45:55.185+0700 I -        [conn3] end connection 127.0.0.1:56436 (1 connection now open)
+2017-07-14T13:47:34.975+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:57016 #4 (1 connection now open)
+2017-07-14T13:47:34.980+0700 I NETWORK  [conn4] received client metadata from 127.0.0.1:57016 conn4: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T13:53:00.200+0700 I -        [conn4] end connection 127.0.0.1:57016 (1 connection now open)
+2017-07-14T13:53:29.281+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:57187 #5 (1 connection now open)
+2017-07-14T13:53:29.286+0700 I NETWORK  [conn5] received client metadata from 127.0.0.1:57187 conn5: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T13:54:33.947+0700 I -        [conn5] end connection 127.0.0.1:57187 (1 connection now open)
+2017-07-14T13:55:02.911+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:57248 #6 (1 connection now open)
+2017-07-14T13:55:02.918+0700 I NETWORK  [conn6] received client metadata from 127.0.0.1:57248 conn6: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T13:55:12.676+0700 I -        [conn6] end connection 127.0.0.1:57248 (1 connection now open)
+2017-07-14T13:55:50.285+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:57324 #7 (1 connection now open)
+2017-07-14T13:55:50.290+0700 I NETWORK  [conn7] received client metadata from 127.0.0.1:57324 conn7: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T13:57:37.487+0700 I -        [conn7] end connection 127.0.0.1:57324 (1 connection now open)
+2017-07-14T13:58:08.862+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:57371 #8 (1 connection now open)
+2017-07-14T13:58:08.868+0700 I NETWORK  [conn8] received client metadata from 127.0.0.1:57371 conn8: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:00:34.055+0700 I -        [conn8] end connection 127.0.0.1:57371 (1 connection now open)
+2017-07-14T14:01:09.077+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:57646 #9 (1 connection now open)
+2017-07-14T14:01:09.082+0700 I NETWORK  [conn9] received client metadata from 127.0.0.1:57646 conn9: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:06:30.153+0700 I -        [conn9] end connection 127.0.0.1:57646 (1 connection now open)
+2017-07-14T14:07:26.286+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:58222 #10 (1 connection now open)
+2017-07-14T14:07:26.291+0700 I NETWORK  [conn10] received client metadata from 127.0.0.1:58222 conn10: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:09:18.651+0700 I -        [conn10] end connection 127.0.0.1:58222 (1 connection now open)
+2017-07-14T14:09:53.018+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:58437 #11 (1 connection now open)
+2017-07-14T14:09:53.027+0700 I NETWORK  [conn11] received client metadata from 127.0.0.1:58437 conn11: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:17:29.094+0700 I -        [conn11] end connection 127.0.0.1:58437 (1 connection now open)
+2017-07-14T14:18:00.822+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:59258 #12 (1 connection now open)
+2017-07-14T14:18:00.827+0700 I NETWORK  [conn12] received client metadata from 127.0.0.1:59258 conn12: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:20:59.035+0700 I -        [conn12] end connection 127.0.0.1:59258 (1 connection now open)
+2017-07-14T14:21:27.810+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:59339 #13 (1 connection now open)
+2017-07-14T14:21:27.814+0700 I NETWORK  [conn13] received client metadata from 127.0.0.1:59339 conn13: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:23:14.694+0700 I -        [conn13] end connection 127.0.0.1:59339 (1 connection now open)
+2017-07-14T14:23:44.473+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:59391 #14 (1 connection now open)
+2017-07-14T14:23:44.478+0700 I NETWORK  [conn14] received client metadata from 127.0.0.1:59391 conn14: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:24:43.051+0700 I -        [conn14] end connection 127.0.0.1:59391 (1 connection now open)
+2017-07-14T14:25:15.916+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:59656 #15 (1 connection now open)
+2017-07-14T14:25:15.921+0700 I NETWORK  [conn15] received client metadata from 127.0.0.1:59656 conn15: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:30:09.035+0700 I -        [conn15] end connection 127.0.0.1:59656 (1 connection now open)
+2017-07-14T14:30:38.748+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:59830 #16 (1 connection now open)
+2017-07-14T14:30:38.753+0700 I NETWORK  [conn16] received client metadata from 127.0.0.1:59830 conn16: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:33:49.998+0700 I -        [conn16] end connection 127.0.0.1:59830 (1 connection now open)
+2017-07-14T14:34:18.958+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:59920 #17 (1 connection now open)
+2017-07-14T14:34:18.963+0700 I NETWORK  [conn17] received client metadata from 127.0.0.1:59920 conn17: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:35:00.966+0700 I -        [conn17] end connection 127.0.0.1:59920 (1 connection now open)
+2017-07-14T14:35:30.593+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:59969 #18 (1 connection now open)
+2017-07-14T14:35:30.599+0700 I NETWORK  [conn18] received client metadata from 127.0.0.1:59969 conn18: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:36:43.982+0700 I -        [conn18] end connection 127.0.0.1:59969 (1 connection now open)
+2017-07-14T14:37:14.043+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:60062 #19 (1 connection now open)
+2017-07-14T14:37:14.048+0700 I NETWORK  [conn19] received client metadata from 127.0.0.1:60062 conn19: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:37:54.331+0700 I -        [conn19] end connection 127.0.0.1:60062 (1 connection now open)
+2017-07-14T14:38:24.031+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:60101 #20 (1 connection now open)
+2017-07-14T14:38:24.036+0700 I NETWORK  [conn20] received client metadata from 127.0.0.1:60101 conn20: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:38:45.235+0700 I -        [conn20] end connection 127.0.0.1:60101 (1 connection now open)
+2017-07-14T14:39:15.741+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:60108 #21 (1 connection now open)
+2017-07-14T14:39:15.745+0700 I NETWORK  [conn21] received client metadata from 127.0.0.1:60108 conn21: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:39:36.877+0700 I -        [conn21] end connection 127.0.0.1:60108 (1 connection now open)
+2017-07-14T14:40:57.722+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:60187 #22 (1 connection now open)
+2017-07-14T14:40:57.727+0700 I NETWORK  [conn22] received client metadata from 127.0.0.1:60187 conn22: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:41:10.994+0700 I -        [conn22] end connection 127.0.0.1:60187 (1 connection now open)
+2017-07-14T14:42:09.406+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:60326 #23 (1 connection now open)
+2017-07-14T14:42:09.411+0700 I NETWORK  [conn23] received client metadata from 127.0.0.1:60326 conn23: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:43:08.866+0700 I -        [conn23] end connection 127.0.0.1:60326 (1 connection now open)
+2017-07-14T14:43:41.765+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:60412 #24 (1 connection now open)
+2017-07-14T14:43:41.770+0700 I NETWORK  [conn24] received client metadata from 127.0.0.1:60412 conn24: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:45:25.913+0700 I -        [conn24] end connection 127.0.0.1:60412 (1 connection now open)
+2017-07-14T14:45:58.694+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:60475 #25 (1 connection now open)
+2017-07-14T14:45:58.699+0700 I NETWORK  [conn25] received client metadata from 127.0.0.1:60475 conn25: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:46:19.728+0700 I -        [conn25] end connection 127.0.0.1:60475 (1 connection now open)
+2017-07-14T14:46:50.864+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:60516 #26 (1 connection now open)
+2017-07-14T14:46:50.869+0700 I NETWORK  [conn26] received client metadata from 127.0.0.1:60516 conn26: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:47:31.104+0700 I -        [conn26] end connection 127.0.0.1:60516 (1 connection now open)
+2017-07-14T14:48:03.650+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:60557 #27 (1 connection now open)
+2017-07-14T14:48:03.658+0700 I NETWORK  [conn27] received client metadata from 127.0.0.1:60557 conn27: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:48:35.437+0700 I -        [conn27] end connection 127.0.0.1:60557 (1 connection now open)
+2017-07-14T14:49:10.164+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:60579 #28 (1 connection now open)
+2017-07-14T14:49:10.169+0700 I NETWORK  [conn28] received client metadata from 127.0.0.1:60579 conn28: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:49:38.364+0700 I -        [conn28] end connection 127.0.0.1:60579 (1 connection now open)
+2017-07-14T14:50:10.218+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:60648 #29 (1 connection now open)
+2017-07-14T14:50:10.223+0700 I NETWORK  [conn29] received client metadata from 127.0.0.1:60648 conn29: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:52:23.928+0700 I -        [conn29] end connection 127.0.0.1:60648 (1 connection now open)
+2017-07-14T14:52:54.363+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:60795 #30 (1 connection now open)
+2017-07-14T14:52:54.368+0700 I NETWORK  [conn30] received client metadata from 127.0.0.1:60795 conn30: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:54:42.655+0700 I -        [conn30] end connection 127.0.0.1:60795 (1 connection now open)
+2017-07-14T14:55:17.617+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:60968 #31 (1 connection now open)
+2017-07-14T14:55:17.622+0700 I NETWORK  [conn31] received client metadata from 127.0.0.1:60968 conn31: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:56:39.856+0700 I -        [conn31] end connection 127.0.0.1:60968 (1 connection now open)
+2017-07-14T14:57:09.311+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:61158 #32 (1 connection now open)
+2017-07-14T14:57:09.319+0700 I NETWORK  [conn32] received client metadata from 127.0.0.1:61158 conn32: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:57:37.468+0700 I -        [conn32] end connection 127.0.0.1:61158 (1 connection now open)
+2017-07-14T14:58:17.182+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:61278 #33 (1 connection now open)
+2017-07-14T14:58:17.189+0700 I NETWORK  [conn33] received client metadata from 127.0.0.1:61278 conn33: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:58:49.498+0700 I -        [conn33] end connection 127.0.0.1:61278 (1 connection now open)
+2017-07-14T14:59:22.293+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:61384 #34 (1 connection now open)
+2017-07-14T14:59:22.299+0700 I NETWORK  [conn34] received client metadata from 127.0.0.1:61384 conn34: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T14:59:59.878+0700 I -        [conn34] end connection 127.0.0.1:61384 (1 connection now open)
+2017-07-14T15:00:34.772+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:61524 #35 (1 connection now open)
+2017-07-14T15:00:34.778+0700 I NETWORK  [conn35] received client metadata from 127.0.0.1:61524 conn35: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T15:01:40.397+0700 I -        [conn35] end connection 127.0.0.1:61524 (1 connection now open)
+2017-07-14T15:02:27.954+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:61644 #36 (1 connection now open)
+2017-07-14T15:02:27.961+0700 I NETWORK  [conn36] received client metadata from 127.0.0.1:61644 conn36: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T15:04:19.289+0700 I -        [conn36] end connection 127.0.0.1:61644 (1 connection now open)
+2017-07-14T15:04:48.371+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:61705 #37 (1 connection now open)
+2017-07-14T15:04:48.376+0700 I NETWORK  [conn37] received client metadata from 127.0.0.1:61705 conn37: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T15:06:08.724+0700 I -        [conn37] end connection 127.0.0.1:61705 (1 connection now open)
+2017-07-14T15:07:11.805+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:61800 #38 (1 connection now open)
+2017-07-14T15:07:11.811+0700 I NETWORK  [conn38] received client metadata from 127.0.0.1:61800 conn38: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T15:07:38.538+0700 I -        [conn38] end connection 127.0.0.1:61800 (1 connection now open)
+2017-07-14T15:08:26.032+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:61925 #39 (1 connection now open)
+2017-07-14T15:08:26.038+0700 I NETWORK  [conn39] received client metadata from 127.0.0.1:61925 conn39: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T15:20:30.290+0700 I -        [conn39] end connection 127.0.0.1:61925 (1 connection now open)
+2017-07-14T15:21:03.935+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:63198 #40 (1 connection now open)
+2017-07-14T15:21:03.944+0700 I NETWORK  [conn40] received client metadata from 127.0.0.1:63198 conn40: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T15:24:09.061+0700 I -        [conn40] end connection 127.0.0.1:63198 (1 connection now open)
+2017-07-14T15:24:38.010+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:63332 #41 (1 connection now open)
+2017-07-14T15:24:38.015+0700 I NETWORK  [conn41] received client metadata from 127.0.0.1:63332 conn41: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T15:25:33.828+0700 I -        [conn41] end connection 127.0.0.1:63332 (1 connection now open)
+2017-07-14T15:26:04.413+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:63415 #42 (1 connection now open)
+2017-07-14T15:26:04.418+0700 I NETWORK  [conn42] received client metadata from 127.0.0.1:63415 conn42: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T15:26:21.978+0700 I -        [conn42] end connection 127.0.0.1:63415 (1 connection now open)
+2017-07-14T15:26:52.748+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:63432 #43 (1 connection now open)
+2017-07-14T15:26:52.753+0700 I NETWORK  [conn43] received client metadata from 127.0.0.1:63432 conn43: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T15:26:54.926+0700 I -        [conn43] end connection 127.0.0.1:63432 (1 connection now open)
+2017-07-14T15:27:27.719+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:63464 #44 (1 connection now open)
+2017-07-14T15:27:27.724+0700 I NETWORK  [conn44] received client metadata from 127.0.0.1:63464 conn44: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T15:29:11.754+0700 I -        [conn44] end connection 127.0.0.1:63464 (1 connection now open)
+2017-07-14T15:29:43.481+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:63528 #45 (1 connection now open)
+2017-07-14T15:29:43.486+0700 I NETWORK  [conn45] received client metadata from 127.0.0.1:63528 conn45: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T15:30:10.880+0700 I -        [conn45] end connection 127.0.0.1:63528 (1 connection now open)
+2017-07-14T15:30:40.740+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:63642 #46 (1 connection now open)
+2017-07-14T15:30:40.746+0700 I NETWORK  [conn46] received client metadata from 127.0.0.1:63642 conn46: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T15:31:11.396+0700 I -        [conn46] end connection 127.0.0.1:63642 (1 connection now open)
+2017-07-14T15:31:51.285+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:63656 #47 (1 connection now open)
+2017-07-14T15:31:51.291+0700 I NETWORK  [conn47] received client metadata from 127.0.0.1:63656 conn47: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T15:33:09.560+0700 I -        [conn47] end connection 127.0.0.1:63656 (1 connection now open)
+2017-07-14T15:33:47.193+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:63709 #48 (1 connection now open)
+2017-07-14T15:33:47.198+0700 I NETWORK  [conn48] received client metadata from 127.0.0.1:63709 conn48: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T15:34:25.503+0700 I -        [conn48] end connection 127.0.0.1:63709 (1 connection now open)
+2017-07-14T15:35:06.420+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:63747 #49 (1 connection now open)
+2017-07-14T15:35:06.425+0700 I NETWORK  [conn49] received client metadata from 127.0.0.1:63747 conn49: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T15:37:23.824+0700 I -        [conn49] end connection 127.0.0.1:63747 (1 connection now open)
+2017-07-14T15:37:55.386+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:63796 #50 (1 connection now open)
+2017-07-14T15:37:55.391+0700 I NETWORK  [conn50] received client metadata from 127.0.0.1:63796 conn50: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T15:38:32.509+0700 I -        [conn50] end connection 127.0.0.1:63796 (1 connection now open)
+2017-07-14T15:39:07.371+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:63864 #51 (1 connection now open)
+2017-07-14T15:39:07.376+0700 I NETWORK  [conn51] received client metadata from 127.0.0.1:63864 conn51: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T15:39:48.113+0700 I -        [conn51] end connection 127.0.0.1:63864 (1 connection now open)
+2017-07-14T15:40:21.619+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:63989 #52 (1 connection now open)
+2017-07-14T15:40:21.624+0700 I NETWORK  [conn52] received client metadata from 127.0.0.1:63989 conn52: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T15:40:22.353+0700 I COMMAND  [conn52] command admin.$cmd command: isMaster { ismaster: true, client: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" } } numYields:0 reslen:189 locks:{} protocol:op_query 701ms
+2017-07-14T15:46:40.558+0700 I -        [conn52] end connection 127.0.0.1:63989 (1 connection now open)
+2017-07-14T15:47:16.323+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:64205 #53 (1 connection now open)
+2017-07-14T15:47:16.328+0700 I NETWORK  [conn53] received client metadata from 127.0.0.1:64205 conn53: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T16:21:46.821+0700 I -        [conn53] end connection 127.0.0.1:64205 (1 connection now open)
+2017-07-14T16:23:36.854+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:64894 #54 (1 connection now open)
+2017-07-14T16:23:36.859+0700 I NETWORK  [conn54] received client metadata from 127.0.0.1:64894 conn54: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T16:23:56.126+0700 I COMMAND  [conn54] command HotelBookingReservationsSystem.users command: find { find: "users", filter: { username: "123" }, projection: {}, limit: 1, singleBatch: true, batchSize: 1 } planSummary: COLLSCAN keysExamined:0 docsExamined:3 cursorExhausted:1 numYields:1 nreturned:0 reslen:124 locks:{ Global: { acquireCount: { r: 4 } }, Database: { acquireCount: { r: 2 } }, Collection: { acquireCount: { r: 2 } } } protocol:op_query 145ms
+2017-07-14T16:23:56.194+0700 I -        [conn54] end connection 127.0.0.1:64894 (1 connection now open)
+2017-07-14T16:36:34.749+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:65163 #55 (1 connection now open)
+2017-07-14T16:36:34.754+0700 I NETWORK  [conn55] received client metadata from 127.0.0.1:65163 conn55: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-14T16:45:47.903+0700 I -        [conn55] end connection 127.0.0.1:65163 (1 connection now open)

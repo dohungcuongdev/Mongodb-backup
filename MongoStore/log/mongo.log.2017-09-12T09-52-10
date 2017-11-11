@@ -1,0 +1,96 @@
+2017-09-12T07:28:57.956+0700 I CONTROL  [initandlisten] MongoDB starting : pid=3160 port=27017 dbpath=D:\MongoStore\data 64-bit host=HUNGCUONG-PC
+2017-09-12T07:28:57.956+0700 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-09-12T07:28:57.956+0700 I CONTROL  [initandlisten] db version v3.4.5
+2017-09-12T07:28:57.957+0700 I CONTROL  [initandlisten] git version: 520b8f3092c48d934f0cd78ab5f40fe594f96863
+2017-09-12T07:28:57.957+0700 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-09-12T07:28:57.957+0700 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-09-12T07:28:57.957+0700 I CONTROL  [initandlisten] modules: none
+2017-09-12T07:28:57.957+0700 I CONTROL  [initandlisten] build environment:
+2017-09-12T07:28:57.957+0700 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-09-12T07:28:57.957+0700 I CONTROL  [initandlisten]     distarch: x86_64
+2017-09-12T07:28:57.957+0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-09-12T07:28:57.957+0700 I CONTROL  [initandlisten] options: { config: "D:\MongoStore\config.txt", storage: { dbPath: "D:\MongoStore\data" }, systemLog: { destination: "file", path: "D:\MongoStore\log\mongo.log" } }
+2017-09-12T07:28:57.958+0700 I -        [initandlisten] Detected data files in D:\MongoStore\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-09-12T07:28:57.958+0700 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3539M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-09-12T07:29:03.576+0700 I CONTROL  [initandlisten] 
+2017-09-12T07:29:03.576+0700 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-09-12T07:29:03.576+0700 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-09-12T07:29:03.576+0700 I CONTROL  [initandlisten] 
+2017-09-12T07:29:03.577+0700 I CONTROL  [initandlisten] Hotfix KB2731284 or later update is not installed, will zero-out data files.
+2017-09-12T07:29:03.577+0700 I CONTROL  [initandlisten] 
+2017-09-12T07:29:09.332+0700 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'D:/MongoStore/data/diagnostic.data'
+2017-09-12T07:29:10.255+0700 I NETWORK  [thread1] waiting for connections on port 27017
+2017-09-12T07:33:16.078+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49429 #1 (1 connection now open)
+2017-09-12T07:33:16.161+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49430 #2 (2 connections now open)
+2017-09-12T07:33:16.234+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49431 #3 (3 connections now open)
+2017-09-12T07:33:23.898+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49438 #4 (4 connections now open)
+2017-09-12T07:33:23.903+0700 I NETWORK  [conn4] received client metadata from 127.0.0.1:49438 conn4: { driver: { name: "nodejs", version: "2.2.31" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v6.11.2, LE, mongodb-core: 2.1.15" }
+2017-09-12T07:33:32.941+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49466 #5 (5 connections now open)
+2017-09-12T07:33:48.394+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49476 #6 (6 connections now open)
+2017-09-12T07:33:48.456+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49477 #7 (7 connections now open)
+2017-09-12T07:33:51.964+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49479 #8 (8 connections now open)
+2017-09-12T07:33:51.983+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49480 #9 (9 connections now open)
+2017-09-12T07:33:53.916+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49482 #10 (10 connections now open)
+2017-09-12T07:33:53.937+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49483 #11 (11 connections now open)
+2017-09-12T07:33:59.063+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49484 #12 (12 connections now open)
+2017-09-12T07:35:39.827+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49514 #13 (13 connections now open)
+2017-09-12T07:35:47.499+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49522 #14 (14 connections now open)
+2017-09-12T07:36:02.142+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49535 #15 (15 connections now open)
+2017-09-12T07:39:22.899+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49667 #16 (16 connections now open)
+2017-09-12T07:39:22.964+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49668 #17 (17 connections now open)
+2017-09-12T07:39:22.981+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49669 #18 (18 connections now open)
+2017-09-12T07:39:23.000+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49670 #19 (19 connections now open)
+2017-09-12T07:41:39.582+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49708 #20 (20 connections now open)
+2017-09-12T07:41:39.660+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49709 #21 (21 connections now open)
+2017-09-12T07:41:53.046+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49718 #22 (22 connections now open)
+2017-09-12T07:41:53.061+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49719 #23 (23 connections now open)
+2017-09-12T07:42:08.304+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49730 #24 (24 connections now open)
+2017-09-12T07:42:08.360+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49731 #25 (25 connections now open)
+2017-09-12T07:42:08.372+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49732 #26 (26 connections now open)
+2017-09-12T07:42:08.384+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49733 #27 (27 connections now open)
+2017-09-12T07:42:23.679+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49743 #28 (28 connections now open)
+2017-09-12T07:42:23.704+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49744 #29 (29 connections now open)
+2017-09-12T07:45:46.835+0700 I -        [conn4] end connection 127.0.0.1:49438 (29 connections now open)
+2017-09-12T07:48:28.273+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49894 #30 (29 connections now open)
+2017-09-12T07:48:28.344+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49895 #31 (30 connections now open)
+2017-09-12T07:48:28.359+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49896 #32 (31 connections now open)
+2017-09-12T07:48:28.380+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49897 #33 (32 connections now open)
+2017-09-12T07:48:36.655+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49905 #34 (33 connections now open)
+2017-09-12T07:48:37.112+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49906 #35 (34 connections now open)
+2017-09-12T07:48:39.727+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49908 #36 (35 connections now open)
+2017-09-12T07:48:44.525+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49911 #37 (36 connections now open)
+2017-09-12T07:48:44.555+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49912 #38 (37 connections now open)
+2017-09-12T07:48:46.332+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49913 #39 (38 connections now open)
+2017-09-12T07:48:46.366+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49914 #40 (39 connections now open)
+2017-09-12T07:48:48.280+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49915 #41 (40 connections now open)
+2017-09-12T07:48:51.738+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49920 #42 (41 connections now open)
+2017-09-12T07:48:53.624+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49921 #43 (42 connections now open)
+2017-09-12T07:48:57.078+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49923 #44 (43 connections now open)
+2017-09-12T07:48:57.753+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49924 #45 (44 connections now open)
+2017-09-12T07:49:18.375+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49934 #46 (45 connections now open)
+2017-09-12T07:49:28.221+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49937 #47 (46 connections now open)
+2017-09-12T07:49:52.192+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49964 #48 (47 connections now open)
+2017-09-12T07:49:52.209+0700 I NETWORK  [conn48] received client metadata from 127.0.0.1:49964 conn48: { driver: { name: "nodejs", version: "2.2.31" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v6.11.2, LE, mongodb-core: 2.1.15" }
+2017-09-12T07:49:57.029+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49991 #49 (48 connections now open)
+2017-09-12T07:50:02.390+0700 I COMMAND  [conn48] command HotelBookingReservationsSystem.activity command: insert { insert: "activity", documents: [ { name: "Feedback", username: "cuongbi1295@gmail.com", fullname: "Do Hung Cuong", email: "cuongbi1295@gmail.com", phone: "0908998923", click: "feedback", details: "Feedback sent successfully!", note: "Rating with 3 ★", content: "no content", response: "Not Yet", _id: ObjectId('59b72f3a2be84612b8b05820'), created_at: new Date(1505177402281), __v: 0 } ], ordered: false } ninserted:1 keysInserted:1 numYields:0 reslen:44 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, Database: { acquireCount: { w: 1 } }, Collection: { acquireCount: { w: 1 } } } protocol:op_query 103ms
+2017-09-12T07:50:36.106+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:50022 #50 (49 connections now open)
+2017-09-12T07:52:57.995+0700 I -        [conn49] end connection 127.0.0.1:49991 (49 connections now open)
+2017-09-12T07:52:57.995+0700 I -        [conn48] end connection 127.0.0.1:49964 (49 connections now open)
+2017-09-12T07:54:00.247+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:50120 #51 (48 connections now open)
+2017-09-12T07:54:00.254+0700 I NETWORK  [conn51] received client metadata from 127.0.0.1:50120 conn51: { driver: { name: "nodejs", version: "2.2.31" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v6.11.2, LE, mongodb-core: 2.1.15" }
+2017-09-12T07:55:33.301+0700 I -        [conn51] end connection 127.0.0.1:50120 (48 connections now open)
+2017-09-12T07:56:05.623+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:50185 #52 (48 connections now open)
+2017-09-12T07:56:05.628+0700 I NETWORK  [conn52] received client metadata from 127.0.0.1:50185 conn52: { driver: { name: "nodejs", version: "2.2.31" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v6.11.2, LE, mongodb-core: 2.1.15" }
+2017-09-12T07:57:24.653+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:50247 #53 (49 connections now open)
+2017-09-12T08:05:29.462+0700 I -        [conn52] end connection 127.0.0.1:50185 (49 connections now open)
+2017-09-12T08:05:30.721+0700 I CONTROL  [thread2] CTRL_CLOSE_EVENT signal
+2017-09-12T08:05:30.721+0700 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2017-09-12T08:05:30.721+0700 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2017-09-12T08:05:30.721+0700 I NETWORK  [consoleTerminate] closing listening socket: 460
+2017-09-12T08:05:30.721+0700 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2017-09-12T08:05:30.721+0700 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2017-09-12T08:05:30.723+0700 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2017-09-12T08:05:31.499+0700 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2017-09-12T08:05:31.499+0700 I CONTROL  [consoleTerminate] now exiting
+2017-09-12T08:05:31.499+0700 I CONTROL  [consoleTerminate] shutting down with code:12
+2017-09-12T08:05:31.499+0700 I 

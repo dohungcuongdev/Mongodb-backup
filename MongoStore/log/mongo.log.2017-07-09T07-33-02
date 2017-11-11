@@ -1,0 +1,17 @@
+2017-07-09T14:32:15.417+0700 I CONTROL  [initandlisten] MongoDB starting : pid=9096 port=27017 dbpath=D:\MongoStore\data 64-bit host=USER-PC
+2017-07-09T14:32:15.417+0700 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-07-09T14:32:15.417+0700 I CONTROL  [initandlisten] db version v3.4.5
+2017-07-09T14:32:15.417+0700 I CONTROL  [initandlisten] git version: 520b8f3092c48d934f0cd78ab5f40fe594f96863
+2017-07-09T14:32:15.417+0700 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-07-09T14:32:15.417+0700 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-07-09T14:32:15.418+0700 I CONTROL  [initandlisten] modules: none
+2017-07-09T14:32:15.418+0700 I CONTROL  [initandlisten] build environment:
+2017-07-09T14:32:15.418+0700 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-07-09T14:32:15.418+0700 I CONTROL  [initandlisten]     distarch: x86_64
+2017-07-09T14:32:15.418+0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-07-09T14:32:15.418+0700 I CONTROL  [initandlisten] options: { config: "D:\MongoStore\config.txt", storage: { dbPath: "D:\MongoStore\data" }, systemLog: { destination: "file", path: "D:\MongoStore\log\mongo.log" } }
+2017-07-09T14:32:15.460+0700 I STORAGE  [initandlisten] exception in initAndListen: 98 Unable to create/open lock file: D:\MongoStore\data\mongod.lock The process cannot access the file because it is being used by another process.. Is a mongod instance already running?, terminating
+2017-07-09T14:32:15.460+0700 I NETWORK  [initandlisten] shutdown: going to close listening sockets...
+2017-07-09T14:32:15.470+0700 I NETWORK  [initandlisten] shutdown: going to flush diaglog...
+2017-07-09T14:32:15.473+0700 I CONTROL  [initandlisten] now exiting
+2017-07-09T14:32:15.473+0700 I CONTROL  [initandlisten] shutting down with code:100

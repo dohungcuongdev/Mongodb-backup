@@ -1,0 +1,75 @@
+2017-07-08T18:39:20.909+0700 I CONTROL  [initandlisten] MongoDB starting : pid=7460 port=27017 dbpath=D:\MongoStore\data 64-bit host=USER-PC
+2017-07-08T18:39:20.909+0700 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-07-08T18:39:20.909+0700 I CONTROL  [initandlisten] db version v3.4.5
+2017-07-08T18:39:20.909+0700 I CONTROL  [initandlisten] git version: 520b8f3092c48d934f0cd78ab5f40fe594f96863
+2017-07-08T18:39:20.909+0700 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-07-08T18:39:20.909+0700 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-07-08T18:39:20.909+0700 I CONTROL  [initandlisten] modules: none
+2017-07-08T18:39:20.910+0700 I CONTROL  [initandlisten] build environment:
+2017-07-08T18:39:20.910+0700 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-07-08T18:39:20.910+0700 I CONTROL  [initandlisten]     distarch: x86_64
+2017-07-08T18:39:20.910+0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-07-08T18:39:20.910+0700 I CONTROL  [initandlisten] options: { config: "D:\MongoStore\config.txt", storage: { dbPath: "D:\MongoStore\data" }, systemLog: { destination: "file", path: "D:\MongoStore\log\mongo.log" } }
+2017-07-08T18:39:20.911+0700 I -        [initandlisten] Detected data files in D:\MongoStore\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-07-08T18:39:20.911+0700 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3539M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-07-08T18:39:27.246+0700 I CONTROL  [initandlisten] 
+2017-07-08T18:39:28.631+0700 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-07-08T18:39:29.110+0700 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-07-08T18:39:29.635+0700 I CONTROL  [initandlisten] 
+2017-07-08T18:39:30.428+0700 I CONTROL  [initandlisten] Hotfix KB2731284 or later update is not installed, will zero-out data files.
+2017-07-08T18:39:31.027+0700 I CONTROL  [initandlisten] 
+2017-07-08T18:39:39.310+0700 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'D:/MongoStore/data/diagnostic.data'
+2017-07-08T18:39:40.388+0700 I NETWORK  [thread1] waiting for connections on port 27017
+2017-07-08T18:40:24.541+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49525 #1 (1 connection now open)
+2017-07-08T18:40:25.009+0700 I NETWORK  [conn1] received client metadata from 127.0.0.1:49525 conn1: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" }
+2017-07-08T18:40:25.078+0700 I COMMAND  [conn1] command admin.$cmd command: isMaster { ismaster: true, client: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.1.7601" }, platform: "Node.js v7.6.0, LE, mongodb-core: 2.1.11" } } numYields:0 reslen:189 locks:{} protocol:op_query 221ms
+2017-07-08T18:41:20.159+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49589 #2 (2 connections now open)
+2017-07-08T18:41:22.215+0700 I COMMAND  [conn1] command HotelBookingReservationsSystem.humen command: find { find: "humen", filter: {}, projection: {} } planSummary: COLLSCAN keysExamined:0 docsExamined:0 cursorExhausted:1 numYields:1 nreturned:0 reslen:124 locks:{ Global: { acquireCount: { r: 4 } }, Database: { acquireCount: { r: 2 } }, Collection: { acquireCount: { r: 2 } } } protocol:op_query 6252ms
+2017-07-08T18:41:23.031+0700 I -        [conn2] end connection 127.0.0.1:49589 (2 connections now open)
+2017-07-08T18:41:26.250+0700 I COMMAND  [conn1] command HotelBookingReservationsSystem.humen command: insert { insert: "humen", documents: [ { _id: ObjectId('5960c4e52df7fc1628d9d956'), __v: 0 } ], ordered: false, writeConcern: { w: 1 } } ninserted:1 keysInserted:1 numYields:0 reslen:44 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, Database: { acquireCount: { w: 1 } }, Collection: { acquireCount: { w: 1 } } } protocol:op_query 700ms
+2017-07-08T18:41:26.333+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49591 #3 (2 connections now open)
+2017-07-08T18:41:28.523+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49592 #4 (3 connections now open)
+2017-07-08T18:41:28.525+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49593 #5 (4 connections now open)
+2017-07-08T18:41:28.526+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49594 #6 (5 connections now open)
+2017-07-08T18:41:37.684+0700 I WRITE    [conn4] remove HotelBookingReservationsSystem.humen query: { _id: ObjectId('5960c4e52df7fc1628d9d956') } planSummary: IDHACK keysExamined:1 docsExamined:1 ndeleted:1 keysDeleted:1 numYields:1 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, Database: { acquireCount: { w: 2 } }, Collection: { acquireCount: { w: 2 } } } 286ms
+2017-07-08T18:41:37.685+0700 I WRITE    [conn1] remove HotelBookingReservationsSystem.humen query: { _id: ObjectId('5960c4e52df7fc1628d9d956') } planSummary: IDHACK keysExamined:0 docsExamined:0 ndeleted:0 numYields:1 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, Database: { acquireCount: { w: 2 } }, Collection: { acquireCount: { w: 2 } } } 198ms
+2017-07-08T18:41:38.925+0700 I COMMAND  [conn4] command HotelBookingReservationsSystem.$cmd command: delete { delete: "humen", deletes: [ { q: { _id: ObjectId('5960c4e52df7fc1628d9d956') }, limit: 0 } ], ordered: true, writeConcern: { w: 1 } } numYields:0 reslen:44 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, Database: { acquireCount: { w: 2 } }, Collection: { acquireCount: { w: 2 } } } protocol:op_query 1526ms
+2017-07-08T18:41:39.495+0700 I COMMAND  [conn1] command HotelBookingReservationsSystem.$cmd command: delete { delete: "humen", deletes: [ { q: { _id: ObjectId('5960c4e52df7fc1628d9d956') }, limit: 0 } ], ordered: true, writeConcern: { w: 1 } } numYields:0 reslen:44 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, Database: { acquireCount: { w: 2 } }, Collection: { acquireCount: { w: 2 } } } protocol:op_query 2008ms
+2017-07-08T18:51:02.267+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49765 #7 (6 connections now open)
+2017-07-08T18:51:02.268+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49766 #8 (7 connections now open)
+2017-07-08T18:51:05.819+0700 I -        [conn7] end connection 127.0.0.1:49765 (7 connections now open)
+2017-07-08T18:51:05.951+0700 I -        [conn8] end connection 127.0.0.1:49766 (7 connections now open)
+2017-07-08T18:51:06.253+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49769 #9 (6 connections now open)
+2017-07-08T18:51:06.255+0700 I -        [conn9] end connection 127.0.0.1:49769 (6 connections now open)
+2017-07-08T18:51:06.504+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49770 #10 (6 connections now open)
+2017-07-08T18:51:14.313+0700 I -        [conn10] end connection 127.0.0.1:49770 (6 connections now open)
+2017-07-08T18:51:14.609+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49776 #11 (6 connections now open)
+2017-07-08T18:51:14.660+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49777 #12 (7 connections now open)
+2017-07-08T18:51:14.661+0700 I -        [conn11] end connection 127.0.0.1:49776 (6 connections now open)
+2017-07-08T18:51:14.665+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49778 #13 (7 connections now open)
+2017-07-08T18:51:14.755+0700 I -        [conn12] end connection 127.0.0.1:49777 (7 connections now open)
+2017-07-08T18:51:14.756+0700 I -        [conn13] end connection 127.0.0.1:49778 (7 connections now open)
+2017-07-08T18:51:15.057+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49781 #14 (6 connections now open)
+2017-07-08T18:51:15.059+0700 I -        [conn14] end connection 127.0.0.1:49781 (6 connections now open)
+2017-07-08T18:51:15.308+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49782 #15 (6 connections now open)
+2017-07-08T18:51:20.064+0700 I -        [conn15] end connection 127.0.0.1:49782 (6 connections now open)
+2017-07-08T18:51:20.418+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49785 #16 (6 connections now open)
+2017-07-08T18:51:20.420+0700 I -        [conn16] end connection 127.0.0.1:49785 (6 connections now open)
+2017-07-08T18:51:20.669+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49786 #17 (6 connections now open)
+2017-07-08T18:55:39.642+0700 I -        [conn17] end connection 127.0.0.1:49786 (6 connections now open)
+2017-07-08T18:57:48.772+0700 I -        [conn4] end connection 127.0.0.1:49592 (5 connections now open)
+2017-07-08T18:57:48.772+0700 I -        [conn3] end connection 127.0.0.1:49591 (5 connections now open)
+2017-07-08T18:57:48.773+0700 I -        [conn1] end connection 127.0.0.1:49525 (5 connections now open)
+2017-07-08T18:57:48.773+0700 I -        [conn6] end connection 127.0.0.1:49594 (5 connections now open)
+2017-07-08T18:57:48.773+0700 I -        [conn5] end connection 127.0.0.1:49593 (5 connections now open)
+2017-07-08T18:57:52.253+0700 I CONTROL  [thread2] CTRL_CLOSE_EVENT signal
+2017-07-08T18:57:52.253+0700 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2017-07-08T18:57:52.254+0700 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2017-07-08T18:57:52.254+0700 I NETWORK  [consoleTerminate] closing listening socket: 460
+2017-07-08T18:57:52.254+0700 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2017-07-08T18:57:52.254+0700 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2017-07-08T18:57:52.272+0700 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2017-07-08T18:57:53.242+0700 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2017-07-08T18:57:53.242+0700 I CONTROL  [consoleTerminate] now exiting
+2017-07-08T18:57:53.243+0700 I CONTROL  [consoleTerminate] shutting down with code:12
+2017-07-08T18:57:53.243+0700

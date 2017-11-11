@@ -1,0 +1,113 @@
+2017-10-29T18:46:01.951+0700 I CONTROL  [initandlisten] MongoDB starting : pid=4692 port=27017 dbpath=D:\MongoStore\data 64-bit host=HUNGCUONG-PC
+2017-10-29T18:46:01.952+0700 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-29T18:46:01.952+0700 I CONTROL  [initandlisten] db version v3.4.5
+2017-10-29T18:46:01.953+0700 I CONTROL  [initandlisten] git version: 520b8f3092c48d934f0cd78ab5f40fe594f96863
+2017-10-29T18:46:01.953+0700 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-10-29T18:46:01.954+0700 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-29T18:46:01.954+0700 I CONTROL  [initandlisten] modules: none
+2017-10-29T18:46:01.954+0700 I CONTROL  [initandlisten] build environment:
+2017-10-29T18:46:01.955+0700 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-29T18:46:01.955+0700 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-29T18:46:01.955+0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-29T18:46:01.955+0700 I CONTROL  [initandlisten] options: { config: "D:\MongoStore\config.txt", storage: { dbPath: "D:\MongoStore\data" }, systemLog: { destination: "file", path: "D:\MongoStore\log\mongo.log" } }
+2017-10-29T18:46:01.958+0700 I -        [initandlisten] Detected data files in D:\MongoStore\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-10-29T18:46:01.976+0700 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3539M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-10-29T18:46:03.910+0700 I CONTROL  [initandlisten] 
+2017-10-29T18:46:03.910+0700 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-10-29T18:46:03.910+0700 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-10-29T18:46:03.910+0700 I CONTROL  [initandlisten] 
+2017-10-29T18:46:03.910+0700 I CONTROL  [initandlisten] Hotfix KB2731284 or later update is not installed, will zero-out data files.
+2017-10-29T18:46:03.910+0700 I CONTROL  [initandlisten] 
+2017-10-29T18:46:05.538+0700 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'D:/MongoStore/data/diagnostic.data'
+2017-10-29T18:46:05.556+0700 I NETWORK  [thread1] waiting for connections on port 27017
+2017-10-29T18:46:13.579+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49582 #1 (1 connection now open)
+2017-10-29T18:46:13.918+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49583 #2 (2 connections now open)
+2017-10-29T18:46:17.125+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49584 #3 (3 connections now open)
+2017-10-29T18:46:17.186+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49585 #4 (4 connections now open)
+2017-10-29T18:46:18.166+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49586 #5 (5 connections now open)
+2017-10-29T18:46:18.232+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49587 #6 (6 connections now open)
+2017-10-29T18:46:18.801+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49588 #7 (7 connections now open)
+2017-10-29T18:46:18.867+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49589 #8 (8 connections now open)
+2017-10-29T18:46:19.341+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49590 #9 (9 connections now open)
+2017-10-29T18:46:19.407+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49591 #10 (10 connections now open)
+2017-10-29T18:46:19.857+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49592 #11 (11 connections now open)
+2017-10-29T18:46:19.928+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49593 #12 (12 connections now open)
+2017-10-29T18:46:20.342+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49594 #13 (13 connections now open)
+2017-10-29T18:46:20.405+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49595 #14 (14 connections now open)
+2017-10-29T18:46:20.833+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49596 #15 (15 connections now open)
+2017-10-29T18:46:20.888+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49597 #16 (16 connections now open)
+2017-10-29T18:46:21.343+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49598 #17 (17 connections now open)
+2017-10-29T18:46:21.405+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49599 #18 (18 connections now open)
+2017-10-29T18:46:21.909+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49600 #19 (19 connections now open)
+2017-10-29T18:46:21.964+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49601 #20 (20 connections now open)
+2017-10-29T18:46:22.547+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49603 #21 (21 connections now open)
+2017-10-29T18:46:22.612+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49604 #22 (22 connections now open)
+2017-10-29T18:46:23.151+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49605 #23 (23 connections now open)
+2017-10-29T18:46:23.220+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49606 #24 (24 connections now open)
+2017-10-29T18:46:23.669+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49607 #25 (25 connections now open)
+2017-10-29T18:46:23.729+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49608 #26 (26 connections now open)
+2017-10-29T18:46:24.165+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49609 #27 (27 connections now open)
+2017-10-29T18:46:24.233+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49610 #28 (28 connections now open)
+2017-10-29T18:46:24.671+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49611 #29 (29 connections now open)
+2017-10-29T18:46:24.729+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49612 #30 (30 connections now open)
+2017-10-29T18:46:25.171+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49613 #31 (31 connections now open)
+2017-10-29T18:46:25.240+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49614 #32 (32 connections now open)
+2017-10-29T18:46:29.946+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49615 #33 (33 connections now open)
+2017-10-29T18:46:30.002+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49616 #34 (34 connections now open)
+2017-10-29T18:46:30.972+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49617 #35 (35 connections now open)
+2017-10-29T18:46:31.031+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49618 #36 (36 connections now open)
+2017-10-29T18:46:31.591+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49619 #37 (37 connections now open)
+2017-10-29T18:46:31.658+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49620 #38 (38 connections now open)
+2017-10-29T18:47:06.986+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49622 #39 (39 connections now open)
+2017-10-29T18:47:07.052+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49623 #40 (40 connections now open)
+2017-10-29T18:47:17.923+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49624 #41 (41 connections now open)
+2017-10-29T18:47:17.992+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49625 #42 (42 connections now open)
+2017-10-29T18:47:24.050+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49626 #43 (43 connections now open)
+2017-10-29T18:47:24.118+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49627 #44 (44 connections now open)
+2017-10-29T18:47:24.920+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49628 #45 (45 connections now open)
+2017-10-29T18:47:24.986+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49629 #46 (46 connections now open)
+2017-10-29T18:47:25.669+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49630 #47 (47 connections now open)
+2017-10-29T18:47:25.735+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49631 #48 (48 connections now open)
+2017-10-29T18:47:26.264+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49632 #49 (49 connections now open)
+2017-10-29T18:47:26.321+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49633 #50 (50 connections now open)
+2017-10-29T18:47:26.790+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49634 #51 (51 connections now open)
+2017-10-29T18:47:26.856+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49635 #52 (52 connections now open)
+2017-10-29T18:47:27.346+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49636 #53 (53 connections now open)
+2017-10-29T18:47:27.414+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49637 #54 (54 connections now open)
+2017-10-29T18:47:28.138+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49638 #55 (55 connections now open)
+2017-10-29T18:47:28.205+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49639 #56 (56 connections now open)
+2017-10-29T18:47:31.232+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49640 #57 (57 connections now open)
+2017-10-29T18:47:31.283+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49641 #58 (58 connections now open)
+2017-10-29T18:47:59.958+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49648 #59 (59 connections now open)
+2017-10-29T18:48:00.020+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49649 #60 (60 connections now open)
+2017-10-29T18:48:42.024+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49766 #61 (61 connections now open)
+2017-10-29T18:48:42.081+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49767 #62 (62 connections now open)
+2017-10-29T18:48:51.686+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49768 #63 (63 connections now open)
+2017-10-29T18:48:51.745+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49769 #64 (64 connections now open)
+2017-10-29T18:50:49.879+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49849 #65 (65 connections now open)
+2017-10-29T18:50:49.942+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49850 #66 (66 connections now open)
+2017-10-29T18:51:39.265+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49855 #67 (67 connections now open)
+2017-10-29T18:51:39.326+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49856 #68 (68 connections now open)
+2017-10-29T18:51:55.419+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49857 #69 (69 connections now open)
+2017-10-29T18:51:55.483+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49858 #70 (70 connections now open)
+2017-10-29T18:52:44.075+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49861 #71 (71 connections now open)
+2017-10-29T18:52:44.149+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49862 #72 (72 connections now open)
+2017-10-29T18:53:06.121+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49863 #73 (73 connections now open)
+2017-10-29T18:53:06.181+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49864 #74 (74 connections now open)
+2017-10-29T18:53:30.770+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49865 #75 (75 connections now open)
+2017-10-29T18:53:30.832+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49866 #76 (76 connections now open)
+2017-10-29T18:53:32.297+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49867 #77 (77 connections now open)
+2017-10-29T18:53:32.361+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49868 #78 (78 connections now open)
+2017-10-29T18:53:34.785+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49869 #79 (79 connections now open)
+2017-10-29T18:53:34.849+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:49870 #80 (80 connections now open)
+2017-10-29T19:44:21.368+0700 I CONTROL  [thread2] CTRL_CLOSE_EVENT signal
+2017-10-29T19:44:21.368+0700 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2017-10-29T19:44:21.368+0700 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2017-10-29T19:44:21.368+0700 I NETWORK  [consoleTerminate] closing listening socket: 460
+2017-10-29T19:44:21.368+0700 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2017-10-29T19:44:21.368+0700 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2017-10-29T19:44:21.376+0700 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2017-10-29T19:44:21.867+0700 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2017-10-29T19:44:21.867+0700 I CONTROL  [consoleTerminate] now exiting
+2017-10-29T19:44:21.867+0700 I CONTROL  [consoleTerminate] shutting down with code:12
+2017-10-29T19:44:21.868+0700
